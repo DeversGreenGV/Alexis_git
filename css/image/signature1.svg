@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="28" viewBox="0 0 96 28">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 40px;
+        fill: #2b2b2b;
+        font-family: "Brush Script MT";
+        font-style: italic;
+      }
+    </style>
+  </defs>
+  <text id="Melina" class="cls-1" transform="translate(1.5 26.004)">Melina</text>
+</svg>

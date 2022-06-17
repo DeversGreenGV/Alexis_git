@@ -1,0 +1,39 @@
+<svg id="Pricing" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="119" height="119" viewBox="0 0 119 119">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ecb866;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        font-size: 25px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: Poppins;
+      }
+
+      .cls-3 {
+        font-size: 13px;
+      }
+    </style>
+    <filter id="filter" x="1.5" y="1.5" width="116" height="116" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1.732"/>
+      <feFlood result="flood" flood-color="#dd5f48"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feFlood result="flood-2" flood-color="#dd5f48"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+  </defs>
+  <g style="fill: #ecb866; filter: url(#filter)">
+    <circle id="bg" class="cls-1" cx="59.5" cy="59.5" r="53" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#bg" style="stroke: #fff; filter: none; fill: none"/>
+  <text id="_195_Per_Month" data-name="$195 Per Month" class="cls-2" x="59.5" y="59.503">$195<tspan class="cls-3" x="59.5" dy="19.994">Per Month</tspan></text>
+</svg>

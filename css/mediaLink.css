@@ -1,0 +1,118 @@
+/* @media (max-width: 575.98px) { 
+
+}
+
+@media (max-width: 767.98px) { 
+
+}
+ */
+
+
+@media (max-width: 1559.98px) { 
+    .cont-mid{
+        width: 100%;
+        max-width: 75%; 
+        display: flex;
+    }
+    .Home__list{
+        margin-top: 40px;
+    }
+        .Home__list h1{
+            font-size: 54px;
+        }
+    .content__left h3 {
+        font-size: 19px;
+    }
+    .block-header h2{
+        font-size: 42px;
+    }
+    .block-header p{
+        font-size: 17px;
+    }
+    .Services__item .item-text {
+        padding: 0px 7%;
+    }
+    .VideoBG{
+        height: 420px;
+    }
+    .VideoBG__list__header h2{
+        font-size: 30px;
+    }
+    .WeWork {
+        /* height: 2100px; */
+    }
+    .WeWork__text .text {
+
+    }
+    .WeWork__text h3 {
+        font-size: 22px;
+    }
+    .Pack__item{
+        width: 30.5%;
+    }
+    .Testimonials__foto{
+        width: 40%;
+    }
+    .Testimonials__text .text {
+        padding: 4% 9% 0px 6%;
+    }
+    .Testimonials__text .text p:first-child{
+        font-size: 15px;
+    }
+    .content__left h3 {
+        font-size: 20px;
+        padding: 5% 9% 0px;
+    }
+    .content__left .text p{
+        padding: 0px 9%;
+    }
+    .content__right h3{
+        font-size: 17px;
+    }
+    .WeWork__text:nth-child(1), .WeWork__text:nth-child(3) {
+        margin-left: -57%;
+    }
+    .WeWork__text:nth-child(2), .WeWork__text:nth-child(4) {
+        margin-left: 57%;
+    }
+    .Footer__content .logo p{
+
+        font-size:55px;
+        
+    }
+}
+@media (max-width: 1209.98px) { 
+    .cont-mid{
+        width: 100%;
+        max-width: 88%; 
+        display: flex;
+    }
+    .list-items ul li{
+        font-size: 14px;
+    }
+    .Home__list{
+        margin-top: 0px;
+    }
+        .Home__list h1{
+            font-size: 50px;
+        }
+    .content__left h3 {
+        font-size: 19px;
+    }
+    .Footer__content .logo p{
+
+        font-size:50px;
+        
+    }
+}
+
+@media (max-width: 991.98px) { 
+    
+    .list-items ul li{
+        display: none;
+    }
+    .list-items ul li:last-child{
+        display: flex;
+    }
+
+}
