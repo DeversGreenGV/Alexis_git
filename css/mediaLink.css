@@ -114,5 +114,8 @@
     .list-items ul li:last-child{
         display: flex;
     }
+    .Subs{
+        display: none;
+    }
 
 }
