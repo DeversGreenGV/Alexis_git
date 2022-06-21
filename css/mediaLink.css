@@ -133,7 +133,26 @@
         margin-top: 25px;
     }
     .AboutUS{
-        
+        height: 900px;
+      
+    }
+    .AboutUS__list{
+        justify-content: center;
+    }
+    .AboutUS .item__one{
+        height: 30%;
+        width: 70%;
+    }
+    .AboutUS .item__two{
+        height: 50%;
+        width: 70%;
+        position: relative;
+    }
+    .AboutUS .item__two .item__text{
+        padding: 5%;
+    }
+    .AboutUS .item__two .item__text h2{
+        font-size: 34px;
     }
     .Team{
         padding: 100px 0;

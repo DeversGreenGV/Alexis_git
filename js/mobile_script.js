@@ -7,6 +7,10 @@ console.log(Team_members_content);
 window.addEventListener("loadeddata",ChangeLayout());
 window.addEventListener("resize",ChangeLayout,true);
 function ChangeLayout(){
+    if (window.innerWidth<= 1209.98) {
+        AboutUS_list.classList.remove('fd-col');
+        AboutUS_list.classList.add('fd-row');
+    }
     if (window.innerWidth<= 991.98) {
         Team__item.forEach((el, index) => {
             let Item__members = el.querySelector('.item__members');
@@ -22,6 +26,7 @@ function ChangeLayout(){
         AboutUS_list.classList.remove('fd-row');
         AboutUS_list.classList.add('fd-col');
     }
+    
     
 }
 // ChangeLayout();
