@@ -560,12 +560,15 @@ p{
 
 .Team{
    background-color: aliceblue;
-   height: 1240px;
+   min-height: 1240px;
    display: flex;
 }
-
+.Team__list{
+    
+}
 .Team__items__list{
     margin-top: 80px;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -576,12 +579,35 @@ p{
         width: 23%;
         height: 350px;
         display: flex;
+        
         align-items: center;
-        flex-direction: column;
+        
         background-color: white;
         position: relative;
         cursor: pointer;
     } 
+        .item__border_color1{
+            border-color: var(--color-one) !important;
+        }
+        .item__border_color2{
+            border-color: var(--color-two) !important;
+        }
+        .item__border_color3{
+            border-color: var(--color-tree) !important;
+        }
+        .item__border_color4{
+            border-color: var(--color-foor) !important;
+        }
+        .item__quest_ire{
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+        .item__members{
+            display: none;
+           
+        }
+        
         .Team__item .item__image{
             padding: 5px;
             height: 70%;
