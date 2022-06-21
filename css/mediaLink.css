@@ -114,6 +114,27 @@
     .list-items ul li:last-child{
         display: flex;
     }
+    .Home{
+        min-height: 800px;
+        height: auto;
+    }
+    .Home__list{
+        margin: 0;
+    }
+    .Home__features__list{
+        width: 100%;
+        padding: 20px;
+    }
+    .feature__item{
+        justify-content: center;
+    }
+    .feature__item .text {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .AboutUS{
+        
+    }
     .Team{
         padding: 100px 0;
      }
