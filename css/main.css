@@ -726,7 +726,8 @@ p{
     height: 460px;
     display: flex;
     background: url(image/fon2.png);
-}
+}   
+    
     .Stats__list__items{
         width: 100%;
         display: flex;
@@ -1049,6 +1050,7 @@ p{
                 width: 100%;
                 margin-bottom: 25px;
             }
+            
                 .WSU__item .item__header svg{
                     width: 52px;
                     height: 52px;
