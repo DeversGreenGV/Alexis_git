@@ -999,10 +999,10 @@ p{
         align-items: center;
         justify-content: center;
     }
-    .CheckboxsP-A input[type="checkbox"]:checked{
+    .CheckboxsP-A input[type="radio"]:checked{
         border-color: var(--color-one);
     }
-    .CheckboxsP-A input[type="checkbox"]:checked::after{
+    .CheckboxsP-A input[type="radio"]:checked::after{
         content: "";
         position: absolute;
         background-color: var(--color-one);
