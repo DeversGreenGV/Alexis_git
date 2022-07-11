@@ -332,7 +332,7 @@ svg[25]= `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox
 </symbol>
 </svg>`;
 svg[26]= `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 52 52">
-<symbol id="my-27-icon" viewBox="0 0 52 52">
+<symbol id="my-27-icon" viewBox="0 0 36 56">
 <defs>
   <style>
     .feature-6 {

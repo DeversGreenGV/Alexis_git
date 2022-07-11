@@ -791,13 +791,14 @@
        
     }
     .block-header h2{
-        font-size: 30px;
+        font-size: 6.2vw;
+
     }
     .block-header h2,.block-header p {
       
     }
     .block-header p{
-       font-size: 15px;
+        font-size: 3.9vw;
     }
      .cont-mid{
        
@@ -889,7 +890,7 @@
             
         }
             .Home__list h1{
-               font-size: 40px;
+                font-size: 7vw;
             }
             .Home__list input{
                 padding: 12px 35px;
@@ -934,6 +935,8 @@
         }
             .AboutUS .item__one{
                 width: 100%;
+                height: 38vw;
+                min-height: auto;
             }
             .AboutUS .item__two{
                width: 100%;
@@ -943,10 +946,10 @@
             }
                 
                 .item__text p{
-                font-size: 15px;
+                    font-size: 2.4vw;
                 }
                 .AboutUS .item__two .item__text h2{
-                   font-size: 28px;
+                    font-size: 4.2vw;
                 }
             .item__border{
                 
@@ -1002,10 +1005,10 @@
                        
                     }
                     .Services__item h3{
-                      
+                        font-size: 4.5vw;
                     }
                     .Services__item .item-text{
-                     
+                        font-size: 3.5vw;
                     }  
                     .Services__item .item-border{
                        
@@ -1045,8 +1048,8 @@
     }
         .Portfolio__item{
            background-size: cover !important;
-            height: 320px;
-            width: 70%;
+           height: 380px;
+           width: 100%;
         } 
             .Portfolio__item .item__background{
                
@@ -1087,6 +1090,7 @@
         .Team__item{
             flex-direction: column;
             height: auto;
+            border-bottom-width: 1vw;
         } 
             .item__border_color1{
                
@@ -1109,13 +1113,19 @@
                 padding: 16px;
                 padding-top: 0;
             }
+            .item__members .Text {
+                font-size: 2.4vw;
+                line-height: 4vw;
+                text-align: justify;
+            }
             .item__members .Name {
                 display: none;
             }
             
             .Team__item .item__image{
                 height: auto;
-                min-height: 200px;
+               
+                min-height: 35vw;
             }  
             .Team__item .item__cont{
                position: relative;
@@ -1131,8 +1141,11 @@
                 .Team__item  .item__cont p{
                    
                 } 
+                .Team__item  .item__cont p:first-child{
+                    font-size: 4vw;
+                } 
                 .Team__item  .item__cont p:last-child{
-                 
+                    font-size: 2.6vw;
                 } 
     .Team__members{
        
@@ -1147,7 +1160,7 @@
                
             }
                 .Team__members__conts .left__cont .Name{
-                    d
+                    
                 }
                 .Team__members__conts .left__cont .Text{
                    
@@ -1189,16 +1202,17 @@
                
             }
                 .Stats__item svg:first-child{
-                   
+                    width: 8vw;
+                    height: 8vw;
                 }
                 .Stats__item svg:last-child{
   
                 }
                 .Stats__item .count{
-                   
+                    font-size: 3.4vw;
                 }
                 .Stats__item p{
-                   
+                    font-size: 2.2vw;
                 }
     
     
@@ -1235,10 +1249,10 @@
             }
             
                 .WeWork__text .text{
-                    
+                    font-size: 2.2vw;
                 }
                     .WeWork__text h3{
-                       
+                        font-size: 3.1vw;
                     }
                 .WeWork__text .border{
     
@@ -1307,8 +1321,9 @@
            flex-direction: column;
         }
         .Testimonials__foto{
-            height: auto;
-           min-height: 300px;
+            
+            height: 50vw;
+            width: 100%;
            width: 100%;
            background-position: 50% 25%;
         }
@@ -1321,18 +1336,22 @@
         .Testimonials__text .text{
            
         }
-        
+        .Testimonials__text .text p:first-child {
+            font-size: 2.5vw;
+            line-height: 4vw;
+            text-align: justify;
+        }
         .Testimonials__text svg{
-          
+            margin: 15px 0;
         }
         .Testimonials__text .text p{
           
         }
         .Testimonials__text h3{
-           
+            font-size: 3vw;
         }
         .Testimonials__text .post{
-           
+            font-size: 2vw;
         }
         .Testimonials__text .border{
           
@@ -1367,18 +1386,18 @@
             .WSU__item{
                 width: 100%;
                 flex-direction: row;
-                padding: 30px;
+                padding: 5%;
                 background-color: #f9fcff;
             }
                 .WSU__item .item__header{
-                    width: 20%;
+                    width: 30%;
                     flex-direction: column;
                     margin: 0;
                     align-items: center;
                 }
                     .WSU__item .item__header svg{
-                        width: 80px;
-                        height: 80px;
+                        width: 10vw;
+                        height: 10vw;
                         margin: 0;
                     }
                     .WSU__item .item__header svg use{
@@ -1387,25 +1406,29 @@
                     .WSU__item .item__header p{
                         margin-top: 10px;
                         text-align: center;
+                        font-size: 2.4vw;
+                        line-height: 4vw;
                     }
                     .WSU__item:first-child{
                       
                     }
                     .WSU__item .text {
+                        font-size: 2.5vw;
                         padding: 0;
                         display: flex;
                         align-items: center;
                         padding-left: 15px;
                         text-align: justify;
+                        line-height: 4.4vw;
                     }
         .WSU-CallAction{
             
         }
             .WSU-CallAction p{
-               
+                font-size: 3vw;
             }
             .WSU-CallAction button{
-              
+                font-size: 2.4vw;
             }
             
     
@@ -1426,7 +1449,9 @@
                
             }
                 .content__left .foto{
-                    
+                    min-height: auto;
+                    height: 50vw;
+                    background-position: 50% 25%;
                 }
                     .content__left .foto-img{
                        
@@ -1435,19 +1460,21 @@
                       
                     }
                         .content__left .name{
-                           
+                            width: 32%;
+                            font-size: 2.6vw;
                         }
                         .content__left .date{
-                           
+                            font-size: 2.4vw;
                         }
                 .content__left .text{
                    
                 }
                     .content__left h3{
-                      
+                        font-size: 3vw;
                     }
                     .content__left .text p{
-                      
+                        font-size: 2.6vw;
+                        text-align: justify;
                     }
                     .content__left .border{
                        
@@ -1465,23 +1492,26 @@
                            
                         }
                             .content__right .name{
-                                
+                                width: 32%;
+                                font-size: 2.6vw;
                             }
                             .content__right .date{
-                               
+                                font-size: 2.4vw;
                             }
     
                             .content__right h3{
-                                
+                                font-size: 3vw;
                             }
                     .content__right .item__text{
-                       
+                        font-size: 2.6vw;
+                        text-align: justify;
                     }
                         .content__right .item__text p{
-                            
+                            font-size: 2.6vw;
+                            text-align: justify;
                         }   
                             .content__right .item__text p span{
-                                
+                                font-size: inherit;
                             }  
                     .content__right .border{
                     
@@ -1546,54 +1576,88 @@
                 }
                 .Contact__content .Footer{
                     height: auto;
-                    min-height: 250px;
-                    margin-top: 0px;
-                    padding-top: 0px;
+                    /* min-height: 250px; */
+                    margin-top: 60px;
+                    padding: 0;
                     position: relative;
                 }
                     .Footer .Footer__content{
-                       
+                     
+                       padding-top: 60px;
+                       padding-bottom: 60px;
+                       min-height: 30vh;
+                        height: 1px;
                     }   
                         .Footer__content .logo,.Footer__content .address {
                           
                         }
+                        .Footer__content div{}
                         .Footer__content .logo{
-                            height: 100%;
-                        }
+                            width: 22%;
+                            height: auto;
+                         }
+                         .Footer__content .address:nth-child(2){
+                             width: 28%;
+                         }
+                         .Footer__content .address:nth-child(3){
+                             width: 28%;
+                         }
+                         .Footer__content .address:nth-child(4){
+                             width: 22%;
+                         }
+                        
                             .Footer__content .logo p{
-                               
+                               font-size: 4.6vw;
                             }
                         .Footer__content .address{
-                            
+                            justify-content: center;
                         }
                             .address .address__content{
+                               padding: 0;
                                
                             }
                             .address p{
                                
                             }
                             .address .address__header{
-                                
+                                text-align: center;
+                                margin-bottom: 15px;
                             }
                                 .address__header p{
-                                    
+                                    font-size: 2.4vw;
                                 }
                             .address__text{
-                               
+                                padding-left: 20px;
                             }
                                 .address__text p{
-                                   
+                                    font-size: 2.4vw;
                                 }
-                            .address.media__link .address-text{
-                               
+                            .address.media__link .address__text {
+                                    display: flex;
+                               flex-direction: column;
+                               align-items: center;
+                               padding: 0;
+                            }
+                            .address.media__link .address__content{
+                                padding: 0;
                             }
                             .address.media__link svg{
-                                
+                                width: 3.6vw;
+                                height: 3.6vw;
                             }
                     .Footer-border{
                        height: 3px;
                     }
-                    .Footer-border .border-color{
-                       
+                    .Footer-border .border-color:nth-child(1){
+                       width: 22%;
+                    }
+                    .Footer-border .border-color:nth-child(2){
+                        width: 28%;
+                    }
+                    .Footer-border .border-color:nth-child(3){
+                        width: 28%;
+                    }
+                    .Footer-border .border-color:nth-child(4){
+                        width: 22%;
                     }
 }
