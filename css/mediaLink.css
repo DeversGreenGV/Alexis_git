@@ -107,7 +107,14 @@
 }
 
 @media (max-width: 991.98px) { 
-    
+
+
+    .menu__burger ul {
+        width: 40vw;
+    }
+
+ /* /////////////////////////////////////////////////////////////////////// */
+
     .list-items ul li{
         display: none;
     }
@@ -853,7 +860,7 @@
     
     
     .menu__burger{
-      
+        
     }
         .menu__burger.active{
           
@@ -864,13 +871,19 @@
            
         }
         .menu__burger ul{
-            
+            width: 70vw;
         }
         .menu__burger ul.anim_on{
           
            
         }
             .menu__burger ul li{
+              
+              
+                font-size: 25px;
+                padding: 10px 0px 10px 17%;
+                
+               
                
             }
             .menu__burger ul li:active{
@@ -946,10 +959,10 @@
             }
                 
                 .item__text p{
-                    font-size: 2.4vw;
+                    font-size: 3.4vw;
                 }
                 .AboutUS .item__two .item__text h2{
-                    font-size: 4.2vw;
+                    font-size: 5.4vw;
                 }
             .item__border{
                 
@@ -1002,7 +1015,8 @@
                   
                 }
                     .Services__item svg{
-                       
+                        height: 13vw;
+                        width: 13vw;
                     }
                     .Services__item h3{
                         font-size: 4.5vw;
@@ -1248,7 +1262,7 @@
                
             }
             
-                .WeWork__text .text{
+                .WeWork__text .text p{
                     font-size: 2.2vw;
                 }
                     .WeWork__text h3{
