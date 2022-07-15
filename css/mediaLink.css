@@ -1835,7 +1835,8 @@
                     margin-right: 15%;
                 }
                     .feature__item svg{
-   
+                        height: 14vw;
+                        width: 14vw;
                     }
                     #my-1-icon path,#my-2-icon path,#my-3-icon path{
                        
@@ -1866,7 +1867,7 @@
         }
             .AboutUS .item__one{
                 width: 100%;
-                height: 38vw;
+                height: 50vw;
                 min-height: auto;
             }
             .AboutUS .item__two{
@@ -1877,10 +1878,12 @@
             }
                 
                 .item__text p{
-                    font-size: 3.4vw;
+                    font-size: 4.4vw;
+                    line-height: 7.5vw;
+                    text-align: justify;
                 }
                 .AboutUS .item__two .item__text h2{
-                    font-size: 5.4vw;
+                    font-size: 6.4vw;
                 }
             .item__border{
                 
@@ -1923,7 +1926,7 @@
             
         }
             .Services__list__items{
-                margin-top: 60px;
+                margin-top: 8%;
             }
                 .Services__item{
                     width: 100%;
@@ -1933,14 +1936,16 @@
                   
                 }
                     .Services__item svg{
-                        height: 13vw;
-                        width: 13vw;
+                        height: 15vw;
+                        width: 15vw;
+                        margin: 3%;
                     }
                     .Services__item h3{
                         font-size: 4.5vw;
                     }
                     .Services__item .item-text{
-                        font-size: 3.5vw;
+                        font-size: 4vw;
+                        padding: 5%;
                     }  
                     .Services__item .item-border{
                        
