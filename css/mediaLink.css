@@ -2093,6 +2093,7 @@
             height: auto;
             max-height: none;
            flex-direction: column;
+           margin-top: 10%;
         }
         .Testimonials__foto{
             
@@ -2133,16 +2134,16 @@
           
         }
         .CheckboxsP-A{
-            bottom: -50px;
+            bottom: -12%;
         }
         .CheckboxsP-A input{
-            height: 5vw;
-            width: 5vw;
+            height: 7vw;
+            width: 7vw;
         }
         .CheckboxsP-A input::after{
             height: 2.7vw !important;
             width:  2.7vw !important;
-            transform: translate(0%, -2%);
+            transform: translate(0%, 0%) ;
         }
         .CheckboxsP-A input[type="checkbox"]:checked{
            
@@ -2160,7 +2161,7 @@
             
         }
         .WSU__content{
-           margin-top: 60px;
+            margin-top: 10%;
         }
         .WSU__items{
             
