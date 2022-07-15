@@ -32,3 +32,9 @@
         font-style: normal; 
         font-weight: normal;
     }
+    @font-face {
+        font-family: "Brush Script MT";  
+        src: url("../fonts/Brush_Script_MT.TTF") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal;
+         }
