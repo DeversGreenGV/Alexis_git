@@ -1698,111 +1698,23 @@
 }
 @media screen and (max-width: 450px) {
     
-    .stop-scrolling {
-      
-      }
-    
-    h2{
-       
-    } 
-    p{
-       
-    }
+  
     .block-header h2{
         font-size: 6.2vw;
-
-    }
-    .block-header h2,.block-header p {
-      
     }
     .block-header p{
         font-size: 3.9vw;
     }
-     .cont-mid{
-       
-    }
-    .fd-row{
-      
-    }
-    .fd-col{
-       
-    }
-    .section_block{
-        
-    }
-    .header{
-       
-    }
-    .header-cont{
-      
-    }
-        .logo{
-          
-        }
-            .logo p{
-               
-            }
-                .logo p span{
-                   
-                }
-        .list-items{
-         
-        }
-            .list-items ul{
-                
-            }
-                .list-items ul li{
-                   
-                }
-                .list-items ul li:last-child{
-                   
-                }
-                .list-items ul li i{
-                    
-                }
-                .list-items ul li:hover:last-child i{
-                
-                }
-    
-                .list-items ul li:hover:not(:last-child){
-                   
-                }
     /* /////////////////////////////////////////////////////////////////////// */
-    
-    
-    .menu__burger{
-        
-    }
-        .menu__burger.active{
-          
-           
-        }
-        .menu__burger.anim_on{
-            
-           
-        }
+   
         .menu__burger ul{
             width: 100vw;
             align-items: center;
         }
-        .menu__burger ul.anim_on{
-          
-           
-        }
             .menu__burger ul li{
-              padding-left: 0;
-              
+              padding-left: 0;   
                 font-size: 25px;
-                
-                
-               
-               
             }
-            .menu__burger ul li:active{
-               
-            }
-    
-    
     
     
     
@@ -1811,9 +1723,6 @@
     .Home{
         min-height: 185vw;
     }          
-        .Home__list{
-            
-        }
             .Home__list h1{
                 font-size: 9vw;
             }
@@ -1838,33 +1747,16 @@
                         height: 14vw;
                         width: 14vw;
                     }
-                    #my-1-icon path,#my-2-icon path,#my-3-icon path{
-                       
-                    }
                     .feature__item .text{
                         margin-top: 10%;
                     }
                     .feature__item .text p{
                         font-size: 4.6vw;
                     }
-                    .home-svg-1{
-                       
-                    }
-                    .home-svg-2{
-                      
-                    }
-                    .home-svg-3{
-                       
-                    }
     
     /* /////////////////////////////////////////////////////////////////////// */
-    
-    .AboutUS{
-      
-    }
-        .AboutUS__list{
-          
-        }
+
+
             .AboutUS .item__one{
                 width: 100%;
                 height: 50vw;
@@ -1873,68 +1765,23 @@
             .AboutUS .item__two{
                width: 100%;
             }
-            .item__text{
-              
-            }
-                
                 .item__text p{
-                    font-size: 4.4vw;
+                    font-size: 4vw;
                     line-height: 7.5vw;
                     text-align: justify;
                 }
                 .AboutUS .item__two .item__text h2{
                     font-size: 6.4vw;
                 }
-            .item__border{
-                
-            }
-                .border{  
-                  
-                }
-                    .color1{
-                       
-                    }
-                    .color2{
-                        
-                    }
-                    .color3{
-                      
-                    }
-                    .color4{
-                        
-                    }
-                    .color-svg-1{
-                        
-                    }
-                    .color-svg-2{
-                        
-                    }
-                    .color-svg-3{
-                       
-                    }
-                    .color-svg-4{
-                        
-                    }
-                    
     
     /* /////////////////////////////////////////////////////////////////////// */
     
-    .Services{
-       
-    }
-        .Services__list__header{
-            
-        }
             .Services__list__items{
                 margin-top: 8%;
             }
                 .Services__item{
                     width: 100%;
                 } 
-    
-                .Services-items .item:hover{
-                  
-                }
                     .Services__item svg{
                         height: 15vw;
                         width: 15vw;
@@ -1947,41 +1794,13 @@
                         font-size: 4vw;
                         padding: 5%;
                     }  
-                    .Services__item .item-border{
-                       
-                    } 
                                             
-     /* /////////////////////////////////////////////////////////////////////// */
 
-    .VideoBG{
-       height: auto;
-       min-height: 340px;
-    }
-            .VideoBG__list__header{
-                
-            }
-                .VideoBG__list__header h2{
-                    font-size: 4.5vw;
-                }
-            .VideoBG__icon{
-               height: 75px;
-               width: 75px;
-            }
-            .VideoBG__text{
-                font-size: 3.5vw;
-            }
     
      /* /////////////////////////////////////////////////////////////////////// */
-    
-    .Portfolio{
-       
-    }
-    .Portfolio__list{
-        
-    }
     
     .Portfolio__items__list{
-        margin-top: 60px;
+        margin-top: 10%;
     }
         .Portfolio__item{
            background-size: cover !important;
@@ -2016,13 +1835,13 @@
     /* /////////////////////////////////////////////////////////////////////// */
     
     .Team{
-       padding-bottom: 0;
+       padding-top: 10%;
     }
     .Team__list{
         
     }
     .Team__items__list{
-        margin-bottom: 60px;
+        margin-top: 10%;
     }
         .Team__item{
             flex-direction: column;
@@ -2051,8 +1870,8 @@
                 padding-top: 0;
             }
             .item__members .Text {
-                font-size: 3.5vw;
-                line-height: 6vw;
+                font-size: 3.6vw;
+                line-height: 5.7vw;
                 text-align: justify;
             }
             .item__members .Name {
@@ -2062,7 +1881,7 @@
             .Team__item .item__image{
                 height: auto;
                
-                min-height: 35vw;
+                min-height: 45vw;
             }  
             .Team__item .item__cont{
                position: relative;
