@@ -2164,11 +2164,12 @@
             margin-top: 10%;
         }
         .WSU__items{
-            
+            justify-content: center;
+            margin-bottom: 0px;
         }
             .WSU__item{
-                width: 100%;
-                flex-direction: row;
+                width: 90%;
+                flex-direction: column;
                 padding: 5%;
                 background-color: #f9fcff;
                 align-items: center;
@@ -2178,10 +2179,11 @@
                     flex-direction: column;
                     margin: 0;
                     align-items: center;
+                    margin-bottom: 5%;
                 }
                     .WSU__item .item__header svg{
-                        width: 10vw;
-                        height: 10vw;
+                        width: 14vw;
+                        height: 14vw;
                         margin: 0;
                     }
                     .WSU__item .item__header svg use{
@@ -2202,19 +2204,21 @@
                         display: flex;
                         align-items: center;
                         padding-left: 15px;
-                        text-align: justify;
+                        text-align: center;
                         line-height: 5.1vw;
                     }
         .WSU-CallAction{
             flex-direction: column;
+            
         }
             .WSU-CallAction p{
                 font-size: 4.5vw;
                 margin-right: 0;
-                margin-bottom: 30px;
+                margin-bottom: 8%;
             }
             .WSU-CallAction button{
                 font-size: 3vw;
+                padding: 3% 8%;
             }
             
     
@@ -2295,6 +2299,7 @@
                         .content__right .item__text p{
                             font-size: 3.2vw;
                             text-align: justify;
+                            line-height: 5.4vw;
                         }   
                             .content__right .item__text p span{
                                 font-size: inherit;
@@ -2358,7 +2363,7 @@
                    
                 }
                 .Forma button{
-                         
+                    width: 80%;
                 }
                 .Contact__content .Footer{
                     height: auto;
