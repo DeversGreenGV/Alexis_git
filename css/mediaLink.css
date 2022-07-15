@@ -1796,7 +1796,14 @@
                     }  
                                             
 
-    
+      /* /////////////////////////////////////////////////////////////////////// */
+
+     
+                 .VideoBG__list__header h2{
+                     font-size: 4.5vw;
+                 }
+          
+     
      /* /////////////////////////////////////////////////////////////////////// */
     
     .Portfolio__items__list{
@@ -1985,34 +1992,34 @@
        
     }
     .WeWork__conts{
-       
+        margin-top: 10%;
     }
         .WeWork__images{
            
         }
             .WeWork__image{
-                min-height: 56vw;
+                min-height: 70vw;
                 max-height: none;
             }
         .WeWork__texts{
             
         }
             .WeWork__text{
-                width: 75%;
+                width: 90%;
             }
             .WeWork__text:nth-child(1),.WeWork__text:nth-child(3){
-                margin-left: -25%;
+                margin-left: -10%;
             }
             .WeWork__text:nth-child(2),.WeWork__text:nth-child(4){
-                margin-left: 25%;
+                margin-left: 10%;
             }
             
                 .WeWork__text .text p{
-                    font-size: 3.2vw;
+                      font-size: 3.6vw;
                     text-align: justify;
                 }
                     .WeWork__text h3{
-                        font-size: 3.1vw;
+                        font-size: 4.6vw;
                         margin-bottom: 4%;
                     }
                 .WeWork__text .border{
@@ -2032,11 +2039,12 @@
     }
         .Packs{
           justify-content: center;
+          margin-top: 10%;
         }
             .Pack__item{
                 width: 80%;
                
-                min-height: 95vw;
+                min-height: 105vw;
             }
             .Pack__item .border{
               
@@ -2050,7 +2058,7 @@
                     font-size: 5.6vw;
                 }
                 .TextandPrice p{
-                    font-size: 3.4vw;
+                    font-size: 3.8vw;
                 }
                     .TextandPrice b{
                         
@@ -2061,11 +2069,11 @@
                     }
                 .TextandPrice button{
                     margin-top: 3%;
-                    font-size: 2.6vw;
+                    font-size: 3.0vw;
                 }
                 .TextandPrice svg{
-                    width: 21vw;
-                    height: 21vw;
+                    width: 24vw;
+                    height: 24vw;
                 }
               
     
