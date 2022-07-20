@@ -80,7 +80,7 @@ sal({
 
 let TeamItems = document.querySelectorAll(".Team__item");
 let triangle = document.querySelector(".Team__triangle");
-let trianglePos = ["80px","368px","656px","940px"];
+let trianglePos = ["7%","33%","59%","84%"];
 let TeamContMidName = document.querySelector(".Team__members__conts .left__cont .Name");
 let TeamContMidArr = ["About Bennet","About Michael","About Alex","About Bill"];
 
@@ -97,9 +97,19 @@ let menuBurger = document.querySelector(".menu__burger");
 let menuBurgerList = document.querySelector(".menu__burger ul");
 menuBurgerButton.addEventListener('click',function name(params) {
     menuBurger.classList.toggle('active');
-    setTimeout(" menuBurger.classList.toggle('anim_on')",50);
-    setTimeout(" menuBurgerList.classList.toggle('anim_on')",150);
-    // menuBurger.style.opacity="1";
-    document.body.classList.toggle('stop-scrolling');
+    if ( menuBurger.classList.contains('active')) {
+        menuBurger.style.display ="flex";
+        setTimeout(" menuBurger.classList.toggle('anim_on')",50);
+        setTimeout(" menuBurgerList.classList.toggle('anim_on')",150);
+        // menuBurger.style.opacity="1";
+        document.body.classList.toggle('stop-scrolling');
+    } else{
+        setTimeout(" menuBurgerList.classList.toggle('anim_on')",50);
+        setTimeout(" menuBurger.classList.toggle('anim_on')",200);
+        setTimeout("  menuBurger.style.display ='none'",300);
+       
+        document.body.classList.toggle('stop-scrolling');
+    }
+    
 });
 

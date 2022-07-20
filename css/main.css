@@ -167,7 +167,7 @@ p{
     transition: all 0.3s ease-out;
 }
     .menu__burger.active{
-        display: flex;  
+       
        
     }
     .menu__burger.anim_on{
@@ -1118,6 +1118,7 @@ p{
             display: flex;
             height: 100%;
             width: 48.5%;
+            cursor: pointer;
         }
             .content__left .foto{
                 height: 72%;
@@ -1193,6 +1194,7 @@ p{
                 background-color: aliceblue;
                 height: 32%;
                 justify-content: space-between;
+                cursor: pointer;
             }
                 .content__right .item__header{
                     display: flex;
